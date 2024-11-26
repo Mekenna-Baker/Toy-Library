@@ -88,7 +88,7 @@ def remove_toy(toy_index):
 # TODO: Define the print library function
 # This function prints the toy library items
 
-def print_library(library):
+def print_library():
     print('\nToy Library:')
     for idx, toy in enumerate(toy_library):
         print(f"{idx + 1}. {toy['toy']} - {toy['type']} - {toy['status']}")
